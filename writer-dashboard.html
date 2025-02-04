@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writer Dashboard - PerPage.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i data-lucide="book-open" class="logo-icon"></i>
+            <a href="index.html">PerPage</a>
+        </div>
+        <div class="nav-links">
+            <span class="writer-name">Welcome, Writer</span>
+            <button class="btn-secondary" onclick="logout()">Logout</button>
+        </div>
+    </nav>
+
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <div class="stats-card">
+                <i data-lucide="indian-rupee"></i>
+                <div class="stats-info">
+                    <h3>Total Earnings</h3>
+                    <p>₹0.00</p>
+                </div>
+            </div>
+            <div class="stats-card">
+                <i data-lucide="file-check"></i>
+                <div class="stats-info">
+                    <h3>Completed Orders</h3>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="stats-card">
+                <i data-lucide="star"></i>
+                <div class="stats-info">
+                    <h3>Rating</h3>
+                    <p>N/A</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-content">
+            <div class="orders-section">
+                <h2>Pending Orders</h2>
+                <div class="orders-list">
+                    <p class="no-orders">No pending orders at the moment.</p>
+                </div>
+            </div>
+
+            <div class="orders-section">
+                <h2>Delivered Orders</h2>
+                <div class="orders-list">
+                    <p class="no-orders">No delivered orders yet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerPage.com - Professional Assignment Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons via CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i data-lucide="book-open" class="logo-icon"></i>
+            <a href="index.html">PerPage</a>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#how-it-works">How It Works</a>
+            <button class="btn-writer" onclick="redirectToWriterAuth()">Be a Writer</button>
+            <button class="btn-primary" onclick="redirectToAuth()">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>PerPage.com</h1>
+            <p>Your Trusted Platform for Professional Assignment Solutions</p>
+            <button class="btn-primary" onclick="redirectToAuth()">Get Started</button>
+            <button class="btn-secondary" onclick="showLearnMore()">Learn More</button>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>Why Choose PerPage?</h2>
+        <div class="features">
+            <div class="feature">
+                <i data-lucide="shield" class="feature-icon"></i>
+                <h3>100% Anonymous</h3>
+                <p>Complete privacy between customers and writers</p>
+            </div>
+            <div class="feature">
+                <i data-lucide="check-circle" class="feature-icon"></i>
+                <h3>Quality Assured</h3>
+                <p>Verified writers with proven track records</p>
+            </div>
+            <div class="feature">
+                <i data-lucide="clock" class="feature-icon"></i>
+                <h3>Timely Delivery</h3>
+                <p>Get your assignments done on schedule</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Post Your Assignment</h3>
+                <p>Share your requirements and deadline</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Choose a Writer</h3>
+                <p>Select from our pool of expert writers</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Secure Payment</h3>
+                <p>Pay securely through our platform</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Get Your Work</h3>
+                <p>Receive your completed assignment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms and Conditions -->
+    <section id="terms" class="section">
+        <h2>Terms and Conditions</h2>
+        <div class="terms-content">
+            <h3>Service Agreement</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            <h3>Privacy Policy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            
+            <h3>Payment Terms</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.</p>
+            
+            <h3>Refund Policy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PerPage.com</h3>
+                <p>Your trusted assignment marketplace</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#terms">Terms & Conditions</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top" onclick="scrollToTop()">
+            <i data-lucide="chevron-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
